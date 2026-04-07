@@ -1,0 +1,58 @@
+26/04/05 23:07:12 INFO: #FastProtein Software 1.0
+26/04/05 23:07:12 INFO: #Developed by Bioinformatic Laboratory - UFSC and IFSC
+26/04/05 23:07:12 INFO: #An automated pipeline for proteomic profile analysis
+26/04/05 23:07:12 INFO: #Questions and issues: renato.simoes@ifsc.edu.br
+26/04/05 23:07:12 INFO: #See more about the project at https://github.com/bioinformatics-ufsc/FastProtein
+26/04/05 23:07:12 INFO: 
+26/04/05 23:07:12 INFO: Process started time: Sun Apr 05 23:07:12 UTC 2026
+26/04/05 23:07:12 INFO: Temporary output folder: /FastProtein/temp/fb10c03b-6932-4fa0-8677-fcdfbba4dcf8
+26/04/05 23:07:12 INFO: Final output folder: /data/results_fastprotein
+26/04/05 23:07:12 INFO: 
+26/04/05 23:07:12 INFO: Proteins in FASTA: 1027
+26/04/05 23:07:12 INFO: Proteins viable for analysis: 1001
+26/04/05 23:07:12 INFO: Ignored proteins (contains * or X) : 26
+26/04/05 23:07:12 INFO: Executing ERRet - Search for Endoplasmic Reticulum Retention sites 
+26/04/05 23:07:12 INFO: Executing N-Glyc - Search for N-glycosylation sites
+26/04/05 23:07:12 INFO: Executing WoLFPSORT - Subcellular localization prediction
+26/04/05 23:07:54 INFO: 	External Command time: 42.196S
+26/04/05 23:07:54 INFO: 	     FastProtein time: 0.029S
+26/04/05 23:07:54 INFO: 	           Total time: 42.225S
+26/04/05 23:07:54 INFO: Executing TMHMM-2.0c - Search for transmembrane domains
+26/04/05 23:08:59 INFO: 	External Command time: 1M4.68S
+26/04/05 23:08:59 INFO: 	     FastProtein time: 0.018S
+26/04/05 23:08:59 INFO: 	           Total time: 1M4.698S
+26/04/05 23:08:59 INFO: Executing SignalP-5 - Search for signal peptide
+26/04/05 23:09:26 INFO: 	External Command time: 27.081S
+26/04/05 23:09:26 INFO: 	     FastProtein time: 0.033S
+26/04/05 23:09:26 INFO: 	           Total time: 27.114S
+26/04/05 23:09:26 INFO: Executing PredGPI - Search for Glycosylphosphatidylinositol (GPI) domain
+26/04/05 23:09:45 INFO: 	External Command time: 18.964S
+26/04/05 23:09:45 INFO: 	     FastProtein time: 0.014S
+26/04/05 23:09:45 INFO: 	           Total time: 18.978S
+26/04/05 23:09:45 INFO: Executing Phobius - Search for signal peptide and transmembrane domains
+26/04/05 23:11:19 INFO: 	External Command time: 1M34.46S
+26/04/05 23:11:19 INFO: 	     FastProtein time: 0.016S
+26/04/05 23:11:19 INFO: 	           Total time: 1M34.476S
+26/04/05 23:11:19 INFO: Skipping - InterproScan
+26/04/05 23:11:19 INFO: Skipping - Search for similarity
+26/04/05 23:11:22 INFO: Creating output files: .CSV
+26/04/05 23:11:22 INFO: Creating output files: .TSV
+26/04/05 23:11:22 INFO: Creating output files: .TXT
+26/04/05 23:11:23 INFO: Creating output files: .SEP
+26/04/05 23:11:23 INFO: Creating Charts
+26/04/05 23:11:26 INFO: Creating ODF (Open Document Format) file 
+26/04/05 23:11:26 INFO: Creating XLS (Excel Spreadsheet) file
+26/04/05 23:11:27 INFO: 
+26/04/05 23:11:27 INFO: Processed proteins: 1001
+26/04/05 23:11:27 INFO: Process started at: Sun Apr 05 23:07:11 UTC 2026
+26/04/05 23:11:27 INFO: Process ended at: Sun Apr 05 23:11:27 UTC 2026
+26/04/05 23:11:27 INFO: General processing time
+26/04/05 23:11:27 INFO: 	External Command time: 4M7.381S
+26/04/05 23:11:27 INFO: 	     FastProtein time: 9.093S
+26/04/05 23:11:27 INFO: 	           Total time: 4M16.474S
+26/04/05 23:11:27 INFO: Check out your generated files in /data/results_fastprotein
+26/04/05 23:11:27 INFO: Thank you for using FastProtein, we hope it will be useful for your research. Please, cite us!
+26/04/05 23:11:27 INFO: 
+Moreira RS, Benetti Filho V, Maia GA, Soratto TAT, Kawagoe EK, Russi BC, Miletti LC, Wagner G. 2024.
+26/04/05 23:11:27 INFO: FastProtein???an automated software for in silico proteomic analysis.
+26/04/05 23:11:27 INFO: PeerJ 12:e18309 https://doi.org/10.7717/peerj.18309
